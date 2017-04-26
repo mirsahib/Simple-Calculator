@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple Form</title>
+		<link rel="stylesheet" type="text/css" href="css/myStyle.css">
+	</head>
+	<body>
+		<div class="user1_form">
+			<form>
+				<fieldset>
+					<legend>Simple Calculator</legend>
+					First Number <br>
+					<input type="text" id="first" name="firstName"><br>
+					Last Number <br>
+					<input type="text" id="second" name="lastName"><br>
+					<input type="radio" name="operation" id="op1" value="add" checked>Add<br>
+					<input type="radio" name="operation" id="op2" value="sub">Subtract<br>
+					<input type="radio" name="operation" id="op3" value="mul">Multiply<br>
+					<input type="radio" name="operation" id="op4" value="div">Divide<br>
+					<input type="radio" name="operation" id="op5" value="div">Modulus<br>
+					<input type="button" onClick="add()" value="Calculate">
+				</fieldset>
+			</form>
+			<h1 id ="demo">Sum = </h1>
+		</div>
+
+		<script src="js/myScript.js"></script>
+	</body>
+</html>

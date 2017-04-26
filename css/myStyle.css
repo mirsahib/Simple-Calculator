@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.user1_form{
+	width: 720px;
+	display: block;
+	margin: 0 auto;
+}
+.form{
+	width: 620px;
+	height: 400px;
+	display: block;
+	margin: 0 auto;
+	background: black;
+}
+.user_form{
+	float: left;
+	width: 310px;
+	height: 400px;
+	background: green;
+}
+.user_form>form{
+	margin-left: 10px; 
+	color: white;
+}
+.user_operation{
+	float: left;
+	width: 310px;
+	height: 400px;
+	background: red;
+}
+.user_operation>textarea{
+	margin-top: 35px;
+	margin-left: 10px;
+	width: 285px;
+	height: 100px;
+}
